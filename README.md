@@ -38,11 +38,11 @@
 
 4. **단계별 프로세스**:
 
-   a. 코드 체크아웃: actions/checkout@v3를 사용하여 최신 코드를 가져옵니다.
+   a. 코드 체크아웃: actions/checkout@v4를 사용하여 최신 코드를 가져옵니다.
 
-   b. AWS 자격 증명 구성: aws-actions/configure-aws-credentials@v1을 사용하여 AWS 접근 키와 비밀 키를 설정합니다.
+   b. AWS 자격 증명 구성: aws-actions/configure-aws-credentials@v4을 사용하여 AWS 접근 키와 비밀 키를 설정합니다.
 
-   c. Node.js 설정: actions/setup-node@v3를 사용하여 Node.js 18 버전을 설정합니다.
+   c. Node.js 설정: actions/setup-node@v4를 사용하여 Node.js 18 버전을 설정합니다.
 
    d. 의존성 설치: `npm ci` 명령을 실행하여 프로젝트 의존성을 설치합니다.
 
