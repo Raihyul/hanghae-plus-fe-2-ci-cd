@@ -2,7 +2,8 @@
 
 ## 개요
 
-![Blank diagram.png](..%2F..%2F..%2F..%2FDownloads%2FBlank%20diagram.png)
+![Blank diagram](https://github.com/user-attachments/assets/a0f35e27-8a88-455c-873e-6610c80557a2)
+
 
 이 프로젝트는 GitHub Actions를 사용하여 자동화된 CI/CD 파이프라인을 구축하고, AWS 서비스를 활용하여 정적 웹사이트를 호스팅합니다. GitHub Actions를 통해 코드 변경사항에 따라 자동으로 웹사이트를 AWS S3에 배포하고 CloudFront를 통해 제공하는 CI/CD 파이프라인을 구현합니다.
 
